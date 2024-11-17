@@ -1,0 +1,25 @@
+Team 8: 
+Jiayi Hao 31727716 (jhao3@u.rochester.edu)
+Erjia Meng 31727297 (emeng2@u.rochester.edu)
+Shiyu Liu 31726955 (sliu89@u.rochester.edu)
+
+1. Address: https://betaweb.csug.rochester.edu/~jhao3/login.php
+
+2. Webpage Instructions: When you access the login page, there are two options: you can 
+either enter the system by entering netid, or see all the tables in the database (required by
+task D). If you choose the first one, there are three netids avaliable for student accounts (
+jhao3, sliu89, emeng2) and two for staff accounts (tjames, wsmith). 
+In the student account, you can write a maintenance report for any item listed in the 
+page by clicking on the report button on the rightmost column. In the report, you have 
+to provide the description and date. After you submitted the report, you can track it or
+withdraw it by clicking on the "My Activity" button. 
+In the staff account, you can see all the requests that you are responsible for. Once you've
+completed a request, you can click on the Complete button so the status of the request
+becomes completed.
+To switch accounts, click on the sign out button to return to the login page.
+
+3. Contributions: We all worked together on online sharing documents for the entire 
+milestone. We all agree each of us contributed an equal amount of work to this 
+assignment. Thus, each of us accomplished approximately one third of the work.
+
+

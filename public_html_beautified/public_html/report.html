@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset = "utf-8">
+        <title>Maintenance Request Form</title>
+        <style>
+            /* h1{text-align: center;} */
+            /* form{text-align: center;} */
+
+            .havemargin {
+        position: relative;
+        left: 50px;
+        top: 20px;
+        
+    }
+
+    .topright {
+        position: absolute;
+        top: 15px;
+        right: 22px;
+        font-size: 19px;
+    }
+ 
+    body{ font-size: 20px; }
+    .tab {
+            display: inline-block;
+            margin-left: 50px;
+    }
+
+        </style>
+    </head>
+
+    <body>
+    <div class="topright">
+        <font style="color:Black; position:absolute; left:-330px; top:10px;">Housing Maintenance Requesting System</font>
+    </div>
+    <div class="havemargin">
+        <h1>Maintenance Request Form</h1>
+        <form>
+            <label for="building">Building: &nbsp;</label><span class="tab"></span>
+            <label for="room">Room: &nbsp; </label><span class="tab"></span>
+            <label for="item">Item: &nbsp; </label><br>
+            <input type="hidden" name = "item_id"><br><br>
+            <label for="des">Description:</label><br><br>
+            
+            <input type="date" name = "dt" name="submission_date" required><br><br>
+            <input type="button" onclick="history.back();" value="Back" style="font-size:20px"> &nbsp; &nbsp; &nbsp; 
+            <input type="reset" style="font-size:20px"> &nbsp; &nbsp; &nbsp; 
+            <input type="submit" style="font-size:20px">
+        </form>
+    </div> 
+    </body>
+</html>

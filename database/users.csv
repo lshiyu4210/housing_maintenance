@@ -1,0 +1,6 @@
+﻿netid,name,phone,email,is_student,location_id
+emeng2,erjia,111-111-1111,emeng@gmail.com,1,2
+sliu89,shiyu,222-222-2222,sliu@gmail.com,1,4
+jhao3,jiayi,,jhao@gmail.com,1,1
+tjames,james,123-456-7890,james@gmail.com,0,3
+wsmith,smith,,smith@gmail.com,0,3

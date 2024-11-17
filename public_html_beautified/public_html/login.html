@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body{ font: 18px sans-serif; }
+        /* .wrapper{ width: 1080px; padding: 20px; } */
+        p{text-align: center;}
+        h1{text-align: center;}
+        h2{text-align: center;}
+        form{text-align: center;}
+        
+    .top {
+        position: absolute;
+        top: 0px;
+        left: 20px;
+        font-size: 18px;
+        text-shadow: 5px 5px Black;
+    }
+
+    .center {
+        position: absolute;
+        top: 65%;
+        width: 100%;
+        text-align: center;
+        font-size: 18px;
+        height: 0px;
+    }
+
+    section {
+        height: 120px;
+    }
+
+    section:nth-child(1) {
+        background: #000066;
+    }
+
+    section:nth-child(2) {
+        background: White;
+    }
+    
+    </style>
+</head>
+<body>
+
+    <section>
+    <div class="top">
+        <br>
+        <h1 style="color:White;position:relative; left:20px;top:9px;font-size: 50px;">Welcome </h1>
+    </div>
+    </section>
+
+    <section>
+    <div class="wrapper">
+        <h1 style="position:relative; top:100px;">Housing Maintenance Requesting System</h1>
+        <br>
+        <br>
+        <p style="position:relative; top:115px;">Please login with your NetID.</p>
+
+        <?php 
+        if(!empty($login_err)){
+            echo '<div class="alert alert-danger">' . $login_err . '</div>';
+        }    
+        ?>
+
+        <?php 
+        if(!empty($username_err)){
+            echo '<div class="alert alert-danger">' . $username_err . '</div>';
+        }    
+        ?>
+
+        <form>
+            <div class="form-group">
+                <label>NetID</label>
+                <input type="text" name="username">
+                <span class="invalid-feedback"></span>
+            </div>    
+            <div class="form-group">
+                <input type="submit" class="btn btn-primary" value="Login">
+            </div>
+            
+        </form>
+
+        <div class="center">
+            <p style="position:relative; left:-60px; top:145px;">Access all the relations in the database from here:</p>
+            <a href="show_table.php" class="btn btn-primary ml-3"; style="position:relative; left:190px; top:100px;">Click Here</a>
+        </div>
+    </div>
+    </section>
+</body>
+</html>
