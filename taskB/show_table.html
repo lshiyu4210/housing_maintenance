@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <meta charset="UTF-8">
+    <title>tables</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body{ font: 14px sans-serif; }
+        /* .wrapper{ width: 1080px; padding: 20px; } */
+        p{text-align: center;}
+        h1{text-align: center;}
+        form{text-align: center;}
+        table{text-align: center;}
+        
+    .havemargin {
+        position: relative;
+        left: 40px;
+        font-size: 24px;
+    }
+
+    .topright {
+        position: absolute;
+        top: 15px;
+        right: 22px;
+        font-size: 16px;
+    }
+    
+    table, th, td {
+        width: 600;
+        left:25px;
+        /* margin: auto; */
+        font-size:15px;
+        padding:10px;
+        /* text-align:left; */
+        border:1px solid #A8A8A8;
+        border-collapse:collapse;
+    }
+
+    </style>
+</head>
+
+<body>
+
+    <div class="havemargin">
+    <br>
+    <h1>All tables from the database </h1>
+
+            <h2>locations</h2>
+            <table> 
+            <thead>
+                <tr>
+                    <th>id</th>
+                    <th>building</th>
+                    <th>room</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td></td>
+                    <td> </td>
+                    <td> </td>
+                </tr>
+            </tbody>
+            </table>
+
+            <br>
+            <h2>user</h2>
+            <table> 
+            <thead>
+                <tr>
+                    <th>netid</th>
+                    <th>user_name</th>
+                    <th>phone</th>
+                    <th>email</th>
+                    <th>is_student</th>
+                    <th>location_id</th>
+                </tr>
+            </thead>
+            <tbody>
+                    <tr>
+                        <td>  </td>
+                        <td>  </td>
+                        <td>  </td>
+                        <td>  </td>
+                        <td>  </td>
+                        <td>  </td>
+                    </tr>
+            </tbody>
+            
+            </table>
+
+            <br>
+            <h2>items</h2>
+            <table>
+            <thead>
+                <tr>
+                    <th>id</th>
+                    <th>item_name</th>
+                    <th>is_broken</th>
+                    <th>location_id</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>  </td>
+                    <td>  </td>
+                    <td>  </td>
+                    <td>  </td>
+                </tr>
+            </tbody>
+            </table>
+
+            <br>
+            <h2>request</h2>
+            <table> 
+            <thead>
+                <tr>
+                    <th>id</th>
+                    <th>user_id</th>
+                    <th>item_id</th>
+                    <th>description</th>
+                    <th>requestDate</th>
+                    <th>is_completed</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>  </td>
+                    <td>  </td>
+                    <td>  </td>
+                    <td>  </td>
+                    <td>  </td>
+                    <td>  </td>
+                </tr>
+            </tbody>
+            
+            </table>
+
+            <br>
+            <h2>responsible_for</h2>
+            <thead>
+            <table> 
+                <tr>
+                    <th>user_id</th>
+                    <th>location_id</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>  </td>
+                    <td>  </td>
+                </tr>
+            </tbody>
+            </table>
+    </div>
+    
+    <div class="topright">
+        <a href="login.php" class="btn btn-danger ml-3" style="position:relative; left:10px; top:0px;">Back to Login</a>
+    </div>
+
+</body>
+
+</html>
+
